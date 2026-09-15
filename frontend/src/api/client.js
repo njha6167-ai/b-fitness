@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const api = axios.create({ baseURL: "/api" });
+const api = axios.create({ baseURL: "https://b-fitness.onrender.com/api" });
 
 // ---- Members ----
 export const getMembers = (search = "") =>
